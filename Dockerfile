@@ -12,9 +12,6 @@ ADD HelloWorld.java /
 # Compile it
 RUN javac HelloWorld.java
 
-RUN ls -al
-
-RUN env
-
 # Run it
-CMD ["java","HelloWorld"]
+ENTRYPOINT ["java"]
+CMD ["HelloWorld"]
