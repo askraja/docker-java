@@ -10,4 +10,3 @@ To run this image:
 ```
 docker run "karthequian/openjdk:latest"
 ```
-
